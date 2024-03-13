@@ -138,7 +138,7 @@ interface demo
     void fun3();
     void draw();
 }
-class democlass extends square implements demo{
+class democlass extends Circle implements demo{
 
     @Override
     public void fun1() {
@@ -183,6 +183,7 @@ public class main {
         democlass a = new democlass();
         a.fun1();
         a.fun3();
+        a.draw();
     }
 }
 
