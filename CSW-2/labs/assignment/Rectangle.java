@@ -450,7 +450,6 @@ public class CarTester {
         System.out.println("Updated make and model of myCar2: " + myCar2.getMake() + " " + myCar2.getModel());
     }
 }
-https://www.youtube.com/shorts/zOIgLaPpsfk
 
 
 
