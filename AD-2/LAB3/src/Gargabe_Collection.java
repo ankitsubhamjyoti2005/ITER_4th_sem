@@ -26,12 +26,12 @@ class Gargabe_Collection{
 
         Employee E = new Employee("Ram", 50);
         E.show();
+        E.showNextId();
         Employee F = new Employee("Raghu", 25);
         F.show();
+        F.showNextId();
         Employee G = new Employee("Sita", 25);
         G.show();
-        E.showNextId();
-        F.showNextId();
         G.showNextId();
 
         {
