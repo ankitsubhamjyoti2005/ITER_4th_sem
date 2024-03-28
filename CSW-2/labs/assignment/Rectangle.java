@@ -436,7 +436,7 @@ class Car {
 }
 
 // CarTester class
-public class CarTester {
+public class Rectangle {
     public static void main(String[] args) {
         Car myCar1 = new Car("Toyota", "Camry");
         Car myCar2 = new Car(null, null);
