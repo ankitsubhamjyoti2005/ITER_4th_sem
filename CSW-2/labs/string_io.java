@@ -35,8 +35,8 @@ public class string_io {
         //     System.out.println(i);
         // }
 
-        String myString = "it@is@my@string@word1@word2";
-        String[] piece = myString.split("@",-1);
+        String myString = "it@is@my@string@word1@word2@@@@@@";
+        String[] piece = myString.split("@",0);
         for(String i : piece){
             System.out.println(i);
         }
