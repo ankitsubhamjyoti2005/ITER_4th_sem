@@ -44,8 +44,7 @@ import java.util.HashMap;
                 newNode.right = right;
 
                 pq.add(newNode);
-            }
-
+akjdsfkgvsz
             HuffmanNode root = pq.peek();
 
             HashMap<Character, String> huffmanCodeMap = new HashMap<>();
